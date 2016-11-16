@@ -7,10 +7,18 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
+  "bin": {
+    "node-serve-stuff": "bin/node-serve-stuff",
+    "nss": "bin/node-serve-stuff"
+  },
+  "preferGlobal": true,
   "keywords": [],
   "author": "Scott Humphries <npm@sscotth.io> (https://sscotth.io/)",
   "license": "MIT",
   "dependencies": {
     "express": "^4.14.0"
+  },
+  "engines": {
+    "node": ">=4.2.0"
   }
 }
