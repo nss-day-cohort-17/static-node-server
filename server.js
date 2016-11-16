@@ -2,6 +2,8 @@
 
 const express = require('express')
 
+const port = process.env.PORT || 8080
+
 express()
 .use(express.static('.'))
-.listen(8080, () => console.log('Listening on port 8080'))
+.listen(port, () => console.log(`Listening on port ${port}`))
