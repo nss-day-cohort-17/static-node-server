@@ -1,7 +1,8 @@
 {
   "name": "node-static-stuff",
   "version": "1.0.1",
-  "description": "",
+  "description": "Simple Node.js static server with no caching for development",
+  "repository": "https://github.com/sscotth/node-static-stuff",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +13,11 @@
     "nss": "bin/node-serve-stuff"
   },
   "preferGlobal": true,
-  "keywords": [],
+  "keywords": [
+    "static",
+    "web",
+    "server"
+  ],
   "author": "Scott Humphries <npm@sscotth.io> (https://sscotth.io/)",
   "license": "MIT",
   "dependencies": {
